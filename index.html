@@ -29,9 +29,11 @@
         return a + b;
         }
 
-        const titel = document.getElementsByTagName("title")[0];
-        const withoutTag = titel.textContent;
-        console.log(withoutTag);
+       window.onload = function() {
+            const titel = document.getElementsByTagName("title")[0];  // Zugriff auf das erste <title>-Element
+            const withoutTag = titel.textContent;  // Textinhalt des <title>-Elements
+            console.log(withoutTag);  // Ausgabe: "Beispielseite"
+        };
     </script>
 </body>
 </html>
