@@ -9,7 +9,9 @@
 
     <script>
         // Aufruf der 4D-Methode HelloWorld
-        $4d.HelloWorld();
+       $4d.HelloWorld(function() {
+    console.log("HelloWorld-Methode wurde aufgerufen.");
+});
     </script>
 </body>
 </html>
