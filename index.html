@@ -7,6 +7,10 @@
 </head>
 <body>
 
+<div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
+    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    
     <script>
 
 
@@ -29,11 +33,9 @@
         return a + b;
         }
 
-       window.onload = function() {
-            const titel = document.getElementsByTagName("title")[0];  // Zugriff auf das erste <title>-Element
-            const withoutTag = titel.textContent;  // Textinhalt des <title>-Elements
-            console.log(withoutTag);  // Ausgabe: "Beispielseite"
-        };
+            const lorem = document.getElementsByTagName("div"); 
+            const withoutTag = lorem.textContent;  
+            console.log(withoutTag); 
     </script>
 </body>
 </html>
